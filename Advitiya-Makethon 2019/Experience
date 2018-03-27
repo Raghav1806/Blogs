@@ -1,0 +1,89 @@
+Topic: Develop a product to improve transportation.
+Team XYZ: Raghav Sharma and Tanay Narshana
+Venue:    Indian Institute of Technology, Ropar, Punjab
+
+After reading Bill Aulet's book on Disciplined Entrepreneurship, I decided to implement the first 5 steps (out of 24) to
+develope a prototype with a scalable business model in just 14 hours.
+
+Improvement in transportation is a very broad area, we decided to first of all divide this problem statement into three main
+areas:
+(1) Safety
+(2) Traffic Management
+(3) Farmer welfare (Punjab being the agricultural workforce of our country)
+
+We decided to concentrate on people commuting using public transportation as our initial customer persona.
+During the first two hours of the competition, we decided to conduct a primary market research by contacting security guards of
+our college, as they were regularly using public transportation and were well aware of the regional socio-economical issues.
+
+- While conducting primary market research, it was observed that regional farmers are well off and do not face much problem 
+while transporting their produce to nearby market places. So we were left with only problems (1) and (2).
+
+The following issues were observed:
+(1) Unfair money demanded by auto rickshaw drivers
+(2) Irregular public transportation system
+(3) Relentness of auto rickshaw drivers to go to certain places
+(4) Lack of car pooling opportunities
+(5) Women security
+(6) Efficient ticketing system in buses
+(*7) Luggage mismanagement
+(8) Pollution at toll plazas
+(9) Using school busses (which are hardly used after school timings) for public transportation
+(10) Public transportation for specially abled
+(11) Ride sharing application for people not able to book trains on time
+(12) Night vision systems
+(13) Checking if driver is attentive enough while driving
+
+
+Out of these 13 problems, 70% of people in our primary market research believed that luggage mismanagment is a serious issue
+and it needed to be solved. Rest of the problems were either less important, or had certain alternatives.
+
+After thoroughly going through this problem, we concluded that this product would be scalable only if we focus our customer 
+persona to be of a flight passenger and named our product TrackIt.
+
+* Building the customer persona:
+Consider this scenario - You are travelling for an important business meeting via airways, you check in your suitcase, and grab
+a quick coffee before heading to your gate for boarding a flight to Bangalore. You reach your destination on time, but find out 
+that your baggage is missing. 
+Sadly, you are one of the 2.60 crore air travellers who suffer due to mishandled luggage every year.
+
+Solution proposed: 
+TrackIt is a device specifically devised for people travelling with an expensive luggage. It is targetted to be a one stop 
+solution for people who care about their belongings.
+
+It could be launched in the market in the following two variants:
+(1) Basic: For trains and bus travellers
+(2) Advanced: For Airoplane travellers
+
+* Expected product price (Asuuming bought in bulk from China):
+(1) Basic:
+Arduino Uno:        Rs. 150/-
+Bluetooth Module:   Rs. 100/-
+PCB fabrication:    Rs. 50/-
+Total:              Rs. 300/-
+Selling Price:      Rs. 499/-
+Margin:             40%
+
+(2) Advanced:
+Arduino Uno:        Rs. 150/-
+Sim module:         Rs. 500/-
+PCB fabrication:    Rs. 50/-
+Total:              Rs. 700/-
+Selling Price:      Rs. 1099/-
+Margin:             37%
+
+* Working principle:
+The product could be easily placed inside the luggage, as a small box.
+(1) Basic Model: We created a mobile application that notified the user whenever strength of bluetooth signal is below a 
+certain threshold level. The user could lock and unlock the device manually, reducing the margin of error.
+(2) Advanced Model: The user would be able to locate the position of luggage using GPS.
+
+* Expected Market size: (Considering only advanced version)
+(Assuming shelf life of this product to be 5 years)
+
+According to world bank, number of unique passengers added each year in the airline industry is 0.5 Billion, out of which
+0.65% misplace their luggage. If we consider that only 1% of users buy this product, the total revenue comes out to be:
+0.65*0.5*1*1099*10^(-4+9) = Rs. 3.60 crore
+With a gross margin of .37*3.60 = 1.33 crore
+
+Note: Kindly note that this product has a HUGE scope of improvement in terms of its working principle, price, and customer 
+persona. But given the limited time we had, we were able to show that manufacturing this product could be scalable.
